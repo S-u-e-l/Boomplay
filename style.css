@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+.navbar .logo h2 {
+    color: white;
+    font-family: sans-serif;
+}
+.navbar ul{
+    display: flex;
+    padding: 10px;
+}
+.navbar ul li {
+    list-style: none;
+    padding: 10px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.navbar ul li .active {
+    color: blue;
+}
+.navbar ul li a:hover {
+    color: grey;
+    font-size: 18px;
+}
+.navbar .search i{
+    padding: 10px;
+    font-size: large;
+    color: white;
+    cursor: pointer;
+} 
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+}
+#home {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.sec1 h1 {
+    color: white;
+}
+.sec1 p {
+    color: white;
+}
+.home .sec1 .btn {
+    padding: 10px;
+    font-size: large;
+    border: 0;
+    background-color: grey;
+    cursor: grab;
+    box-shadow: 2px 2px 4px 8px lightgrey;
+}
+.homeimage img {
+    filter: drop-shadow(-10px -10px 30px blue);
+}
+#home {
+    background-image: url(background.jfif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+
+}
+#why {
+    background-color: black;
+    padding: 20px;
+}
+.title h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.cards {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    height: 350px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+}
+.cardimage{
+    width: 100%;
+    height: 70%;
+}
+.cardimage img {
+    height: 100%;
+    width: 100%;
+    object-fit: fit;
+}
+.title {
+    color: black;
+    position: relative;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.description {
+    color: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardbtn {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: blue;
+    margin: 0px 70px;
+}
+.cover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+}
+#sec3 {
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+
+}
+.comment {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+}
+.productreviews h3 {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reviewimg img {
+    height: 250px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    margin-top: 130px;
+    margin-left: 70px;
+}
+.review p {
+    color: white;
+}
+.review h3 {
+    color: white;
+}
